@@ -1,2 +1,2 @@
-# 10_exerc-cios_divertidos
-10 exercícios divertidos
+# 10 exercicios divertidos
+https://awari.com.br/10-exercicios-divertidos-de-funcoes-em-javascript-para-voce-praticar/
