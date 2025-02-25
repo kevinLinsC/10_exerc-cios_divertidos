@@ -1,5 +1,14 @@
-const paragrafo = document.getElementById("boas-vindas");
+const number = document.getElementById("number");
+const submit = document.getElementById("submit");
+const transformado = document.getElementById("transformado");
 
-window.onload = function(){
-    paragrafo.textContent = `Boas-vindas`;
+submit.onclick = function(){
+    let numero = parseFloat(number.value);
+    if(isNaN(numero)){
+        transformado.textContent = `Digite um número válido.`;
+        return;
+    }
+
+    let binario = numero.toString(2);
+    transformado.textContent = `Convertido para binário: ${binario}`;
 }
