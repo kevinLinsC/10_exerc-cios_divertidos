@@ -1,5 +1,8 @@
-const paragrafo = document.getElementById("boas-vindas");
+const frase = document.getElementById("frase");
+const submit = document.getElementById("submit");
+const frase_reversed = document.getElementById("frase-reversed");
 
-window.onload = function(){
-    paragrafo.textContent = `Boas-vindas`;
+submit.onclick = function(){
+    let phrase = frase.ariaValueMax;
+    let frase_contrario = phrase.to
 }
